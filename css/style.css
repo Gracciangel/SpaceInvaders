@@ -1,0 +1,92 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#live{
+    color: whitesmoke;
+}
+body{
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    opacity: 80;
+}
+
+.nave{
+    width: 50px;
+    height: 50px;
+    background-image: url(../images/naveEspacial.png);
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    bottom: 50px;
+    left: calc(50vw - 40px);
+}
+.bala{
+   background-color: red;
+    width: 15px;
+    height: 35px;
+    border-radius: 10;
+    position: absolute; 
+}
+.botones{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin: 2rem;
+}
+.boton{
+    background-color: yellow;
+    border: .5px green solid;
+    padding: 1rem;
+    text-transform: uppercase;
+    color: blue;
+    
+
+}
+.boton:hover{
+    cursor: pointer;
+}
+
+.boton2:hover{
+    cursor: pointer;
+}
+.contador{
+    background-color: blue;
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.num{
+    color: green;
+    font-size: 30px;
+    margin-top: .5rem;
+}
+.disminuir{
+ background-color: red;
+ color: whitesmoke;
+ font-family: Arial, Helvetica, sans-serif;
+ padding: 1rem;
+ border: .5px solid black;
+ text-transform: uppercase;
+}
+.disminuir:hover{
+    cursor: pointer;
+}
+
+@media(max-whidt:760px){
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+}
