@@ -1,0 +1,17 @@
+body{
+    background-image: url(../images/flayer-space.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img{
+    position: absolute ;
+    width: 300px;
+    height: 100px;
+    margin: 20% 40%;
+    transition: .2s;
+}
+img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
