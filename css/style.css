@@ -36,3 +36,10 @@ body{
 .vidas{
     color: white;
 }
+
+@media screen and (max-width: 780px){
+    body{
+        width: 100%;
+        
+    }
+}
